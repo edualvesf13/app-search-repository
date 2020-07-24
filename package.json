@@ -1,0 +1,27 @@
+{
+  "name": "AplicacaoES6",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.19",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "webpack –mode=development -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  }
+}
