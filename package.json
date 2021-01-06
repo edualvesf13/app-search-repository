@@ -15,7 +15,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
     "@babel/runtime": "^7.10.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "lodash": "^4.17.19",
     "webpack-dev-server": "^3.11.0"
   },
